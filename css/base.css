@@ -28,5 +28,13 @@ p{
     margin: 0 !important;
     padding: 0 !important;
 }
+.fab{
+    font-size: 15px;
+    color: black;
+}
+.fas{
+    font-size: 15px;
+    color: black;
+}
 
 

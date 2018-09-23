@@ -1,0 +1,110 @@
+.news{
+
+
+    &__wrap{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-bottom: 50px;
+    }
+    &__left{
+        width: 80%;
+        margin-left: 50px;
+    }
+    &__right{
+        width: 20%;
+    }
+    &__list{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    &__item{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+                padding-bottom: 20px;
+                margin-bottom: 30px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        border-bottom: 2px solid #f5f5f5;
+    }
+    &__item:nth-child(3){
+        border: none;
+    }
+    &__img{
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 20px;
+    }
+    &__text-wrap{
+
+    }
+    &__date{
+        color: #221f1f;
+        font-size: .85em;
+    }
+    &__text{
+        font-size: 1.12em;
+        color: #221f1f;
+        line-height: 30px;
+        max-width: 900px;
+    }
+    &__right-desk{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    &__right-title{
+        text-transform: uppercase;
+        color: #221f1f;
+        font-size: 1em;
+        letter-spacing: 2.4px;
+        font-weight: bold;
+    }
+    &__right-moth{
+        color: #656464;
+        letter-spacing: 2.4px;
+        font-size: .85em;
+        margin-top: 5px;
+        text-transform: uppercase;
+    }
+    &__right-list{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin-top: 20px;
+    }
+    &__right-item{
+        margin-bottom: 20px;
+    }
+    &__right-img{
+        border-radius: 3px;
+        -webkit-box-shadow: 1px 1px 11px 0px black;
+                box-shadow: 1px 1px 11px 0px black;
+    }
+}

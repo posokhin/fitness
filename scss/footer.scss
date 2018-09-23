@@ -1,0 +1,19 @@
+.footer{
+    background-color: #131415;
+
+    &__wrap{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    &__text{
+        width: 33%;
+    }
+    &__logo{
+        width: 33%;
+    }
+    &__social{
+        width: 33%;
+    }
+}

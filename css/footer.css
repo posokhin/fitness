@@ -1,5 +1,8 @@
 .footer {
-  background-color: #131415; }
+  background-color: #131415;
+  min-width: 1140px;
+}
+  
   .footer__wrap {
     display: -webkit-box;
     display: -ms-flexbox;

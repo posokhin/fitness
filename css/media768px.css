@@ -5,6 +5,9 @@
     .container{
         width: 95%;
     }
+    .header{
+        padding: 20px 0;
+    }
     .header__wrap{
         position: relative;
     }
@@ -18,7 +21,7 @@
         padding: 15px 10px;
     }
     .header__logo-img{
-        width: 107px;
+        width: 100%;
     }
     .header__contacts{
         display: none;
@@ -38,7 +41,7 @@
     }
     .fas_btn{
         color: white;
-        font-size: 20px;
+        font-size: 40px;
         cursor: pointer;
     }
     .header__nav{
@@ -46,7 +49,7 @@
         position: absolute;
         right: 0;
         background: black;
-        top: 44px;
+        top: 70px;
         border-radius: 3px;
         width: 40%;
     }

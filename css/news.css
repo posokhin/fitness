@@ -6,7 +6,7 @@
 
 .news__left {
   width: 80%;
-  margin-left: 50px; }
+  margin-right: 50px; }
 
 .news__right {
   width: 20%; }
@@ -47,12 +47,15 @@
 .news__date {
   color: #221f1f;
   font-size: .85em; }
+  .news__text-wrap{
+    max-width: 655px;
+  }
 
 .news__text {
   font-size: 1.12em;
   color: #221f1f;
   line-height: 30px;
-  max-width: 900px; }
+   }
 
 .news__right-desk {
   display: -webkit-box;
